@@ -6,6 +6,10 @@
   "scripts": {
     "start": "webpack-dev-server --hot"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Doc-Khumalo/charity-project"
+  },
   "author": "Leslie",
   "license": "ISC",
   "dependencies": {
