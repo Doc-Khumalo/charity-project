@@ -16,8 +16,6 @@ class Donors extends React.Component {
             this.setState({
                 users: results.data.donations
             })
-
-            console.log(results.data.donations[1])
         })
     }
 
@@ -33,9 +31,6 @@ class Donors extends React.Component {
                         <p>Amount: {donor.currencyCode} {donor.amount}.00</p>
                         <p>Name: {donor.donorDisplayName}</p>
                         <p>Tax: {donor.estimatedTaxReclaim}.00</p>
-                        {/*<p>Time: {donor.donationDate}</p>*/}
-                        {/* toDo: figure out why axios is rendering time stamp differently from original xml data
-                        to refactor to output correct data */}
                         <p>Message: {donor.message}</p>
                         <hr />
                     </div>
